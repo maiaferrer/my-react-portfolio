@@ -8,5 +8,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ["dracula"],
+  },
+  plugins: [require("daisyui")],
 }
