@@ -1,10 +1,11 @@
 import React from "react";
+import aboutMeImg from '../me.jpeg'
 
 export default function About() {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row">
-       <img src="./public/assets/me.svg"></img>
+       <img src={aboutMeImg} width="200px"></img>
         <div>
           <h1 className="text-5xl font-bold">Hello my name is Maia Ferrer.</h1>
           <p className="py-6">
